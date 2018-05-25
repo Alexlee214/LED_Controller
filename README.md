@@ -21,7 +21,7 @@ In auto mode, the LED light by the button lights up to indicate it is in auto mo
 
 
 
-### Current functionalities
+## Current functionalities
 * May 24, 2018, Version 1.0.0
 * Photoresistor used to detected light level so that the LED strip is synchronized with the main light source
 * Push button to turn on light manually
@@ -29,7 +29,7 @@ In auto mode, the LED light by the button lights up to indicate it is in auto mo
 * LED strip uses PWN signal to turn on and off gradually
 
 
-### Future improvements
+## Future improvements
 * Use INT0 external interrupt for the push button
 * Setup pin change interrupt for the other button
 * Replace the photocell with a PIR sensor
@@ -37,7 +37,7 @@ In auto mode, the LED light by the button lights up to indicate it is in auto mo
 * Have the LED strip stay on for 5 seconds after the main light source is turned off, then detect again, if the light is still off, turn off LED strip. This is to eliminate potential incorrect photoresistor readings or obstructions such as shadows
 
 
-### Appendix
+## Appendix
 * Set up:
  - Switch off all the light sources in the room
  - Plug in the LED strip
