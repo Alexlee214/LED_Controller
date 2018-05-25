@@ -1,3 +1,8 @@
+/*
+ * Alex Lee
+ * May 25th, 2018
+ */
+
 const byte ledOn = 0;
 const byte photocell = A2;
 const byte mode1Btn = 1;
@@ -10,12 +15,14 @@ bool ledIsOn = false;
 unsigned long lastBtnSwitch = 0;
 const short debounceTime = 500;
 
+//parameters used for auto mode
 short ledOnly = 0;
 short darkPhoto = 0;
 const byte photoTolerance = 50;
 const byte offMargin = 30;
 
-unsigned long prevDimTime = 0;
+
+//unsigned long prevDimTime = 0;
 bool dimStart = false;
 
 void setup() {
